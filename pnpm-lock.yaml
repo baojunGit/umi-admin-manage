@@ -21,6 +21,9 @@ devDependencies:
   '@types/react-dom':
     specifier: ^18.0.11
     version: registry.npmjs.org/@types/react-dom@18.0.11
+  cross-env:
+    specifier: ^7.0.3
+    version: registry.npmjs.org/cross-env@7.0.3
   husky:
     specifier: ^8.0.3
     version: registry.npmjs.org/husky@8.0.3
@@ -4103,7 +4106,7 @@ packages:
     version: 5.0.0
     deprecated: This is a stub types definition. history provides its own type definitions, so you do not need this installed.
     dependencies:
-      history: registry.npmjs.org/history@4.10.1
+      history: registry.npmjs.org/history@5.3.0
     dev: false
 
   registry.npmjs.org/@types/hoist-non-react-statics@3.3.1:
@@ -4215,7 +4218,7 @@ packages:
       '@types/history': registry.npmjs.org/@types/history@4.7.11
       '@types/react': registry.npmjs.org/@types/react@18.0.34
       '@types/react-router': registry.npmjs.org/@types/react-router@5.1.20
-      redux: registry.npmjs.org/redux@3.7.2
+      redux: registry.npmjs.org/redux@4.2.1
     dev: false
 
   registry.npmjs.org/@types/react-router@5.1.20:
@@ -6556,6 +6559,16 @@ packages:
       safe-buffer: registry.npmjs.org/safe-buffer@5.2.1
       sha.js: registry.npmjs.org/sha.js@2.4.11
     dev: false
+
+  registry.npmjs.org/cross-env@7.0.3:
+    resolution: {integrity: sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/cross-env/-/cross-env-7.0.3.tgz}
+    name: cross-env
+    version: 7.0.3
+    engines: {node: '>=10.14', npm: '>=6', yarn: '>=1'}
+    hasBin: true
+    dependencies:
+      cross-spawn: registry.npmjs.org/cross-spawn@7.0.3
+    dev: true
 
   registry.npmjs.org/cross-spawn@7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz}
